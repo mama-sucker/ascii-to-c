@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+const char *ascii_art =
+    " .S    S.     sSSs  S.      S.        sSSs_sSSs           .S     S.     sSSs_sSSs     .S_sSSs    S.       .S_sSSs    \n"
+    ".SS    SS.   d%%SP  SS.     SS.      d%%SP~YS%%b         .SS     SS.   d%%SP~YS%%b   .SS~YS%%b   SS.     .SS~YS%%b   \n"
+    "S%S    S%S  d%S'    S%S     S%S     d%S'     `S%b        S%S     S%S  d%S'     `S%b  S%S   `S%b  S%S     S%S   `S%b  \n"
+    "S%S    S%S  S%S     S%S     S%S     S%S       S%S        S%S     S%S  S%S       S%S  S%S    S%S  S%S     S%S    S%S  \n"
+    "S%S SSSS%S  S&S     S&S     S&S     S&S       S&S        S%S     S%S  S&S       S&S  S%S    d*S  S&S     S%S    S&S  \n"
+    "S&S  SSS&S  S&S_Ss  S&S     S&S     S&S       S&S        S&S     S&S  S&S       S&S  S&S   .S*S  S&S     S&S    S&S  \n"
+    "S&S    S&S  S&S~SP  S&S     S&S     S&S       S&S        S&S     S&S  S&S       S&S  S&S_sdSSS   S&S     S&S    S&S  \n"
+    "S&S    S&S  S&S     S&S     S&S     S&S       S&S        S&S     S&S  S&S       S&S  S&S~YSY%b   S&S     S&S    S&S  \n"
+    "S*S    S*S  S*b     S*b     S*b     S*b       d*S        S*S     S*S  S*b       d*S  S*S   `S%b  S*b     S*S    d*S  \n"
+    "S*S    S*S  S*S.    S*S.    S*S.    S*S.     .S*S        S*S  .  S*S  S*S.     .S*S  S*S    S%S  S*S.    S*S   .S*S  \n"
+    "S*S    S*S   SSSbs   SSSbs   SSSbs   SSSbs_sdSSS         S*S_sSs_S*S   SSSbs_sdSSS   S*S    S&S   SSSbs  S*S_sdSSS   \n"
+    "SSS    S*S    YSSP    YSSP    YSSP    YSSP~YSSY          SSS~SSS~S*S    YSSP~YSSY    S*S    SSS    YSSP  SSS~YSSY    \n"
+    "       SP                                                                            SP                              \n"
+    "       Y                                                                             Y                               \n"
+    "                                                                                                                     \n"
+;
+
+
+int main() {
+    // Example usage:
+    printf("%s", ascii_art);
+    return 0;
+}
+
+
